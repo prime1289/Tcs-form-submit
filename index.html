@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TCS NEXT STEP </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&family=PT+Serif&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+</head>
+<style>
+    *{
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Serif', serif;
+}
+.container{
+    max-width:80%;
+    color: white;
+    padding: 34px;
+    margin: auto;
+}
+.container,h1{
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+.heading{
+    background-color:blanchedalmond;
+    opacity: 0.8;
+    border-radius:25px ;
+    margin-top:-14px;
+}
+p{
+    font-size: 21px;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    color:#FF2400;
+    margin-top:8px;
+}
+input,textarea{
+    opacity: 0.7;
+    width: 80%;
+    margin: 11px;
+    padding: 7px;
+    font-size: 15px;
+    border:1px solid black;
+    border-radius: 8px;
+    outline: none;
+   }
+   input:hover{
+    transform: scale(1.01);
+ }
+   textarea:hover{
+    transform: scale(1.01);
+
+   }
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top:8px;
+}
+.btn3{
+    cursor: pointer;
+    border:1px solid white;
+    border-radius: 8px;
+    background-color:#E72388 ;
+    padding: 1px 5px;
+    font-size: 20px;
+    color:white;
+}
+.btn3:hover{
+    background-color: #4CAF50 ;
+    transform: scale(1.05);
+}
+.btn2{
+    margin-left:40px ;
+}
+.btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bg{
+    width: 100%;
+    position: absolute;
+    z-index:-1 ;
+}
+.Submit{
+    color: #006400;
+  background-color: whitesmoke;
+    margin-top: 35px;
+    border-radius:6px;
+    opacity: 0.8;
+}
+/* footer part */
+.footerline{
+    margin-top: 90px;
+        border-top: 1px solid burlywood;
+        height: 1px;
+        width: 100%;
+    }
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+    body{
+        line-height: 1.5;
+        font-family: 'Poppins', sans-serif;
+    }
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: #24262b;
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+</style>
+
+<body>
+    <img class="bg" src="EP-TCS-1-960x720.jpg" alt="TCS RECRUITMENT">
+    <div class="container">
+        <div class="heading">
+            <h1>TCS RECRUITMENT DRIVE FORM 2021</h1>
+            <P>Enter Your Details And Submit Till 30 Nov</P>
+        </div>
+ <P class='Submit'>THANK YOU For Submitting This Form.We'll LEt You Know If You Get Shortlisted By Email</P>
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter Your name">
+            <input type="text" name="Education" id="Education" placeholder="Enter Your Education">
+            <input type="text" name="University" id="University" placeholder="Enter Your University/College">
+            <input type="Phone" name="Phone" id="Phone" placeholder="Enter Your Phone no.">
+            <input type="Email" name="Email" id="Email" placeholder="Enter Your Email">
+            <textarea name="Des" id="Des" cols="30" rows="10"placeholder="Why do you think that you are suitable for this job"></textarea>
+            <div class="btn1">
+                <button class="btn3"><span class="btn">Submit</span></button>
+                <button class="btn2 btn3"><span class="btn">Reset</span></button>
+            </div>
+        </form>
+    </div>
+    <div class="footerline"></div>
+    <footer class="footer">
+  	 <div class="container">
+  	 	<div class="row">
+  	 		<div class="footer-col">
+  	 			<h4>company</h4>
+  	 			<ul>
+  	 				<li><a href="#">about us</a></li>
+  	 				<li><a href="#">our services</a></li>
+  	 				<li><a href="#">privacy policy</a></li>
+  	 				<li><a href="#">affiliate program</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>get help</h4>
+  	 			<ul>
+  	 				<li><a href="#">FAQ</a></li>
+  	 				<li><a href="#">shipping</a></li>
+  	 				<li><a href="#">returns</a></li>
+  	 				<li><a href="#">order status</a></li>
+  	 				<li><a href="#">payment options</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>online shop</h4>
+  	 			<ul>
+  	 				<li><a href="#">watch</a></li>
+  	 				<li><a href="#">bag</a></li>
+  	 				<li><a href="#">shoes</a></li>
+  	 				<li><a href="#">dress</a></li>
+  	 			</ul>
+  	 		</div>
+  	 		<div class="footer-col">
+  	 			<h4>follow us</h4>
+  	 			<div class="social-links">
+  	 				<a href="#"><i class="fab fa-facebook-f"></i></a>
+  	 				<a href="#"><i class="fab fa-twitter"></i></a>
+  	 				<a href="#"><i class="fab fa-instagram"></i></a>
+  	 				<a href="#"><i class="fab fa-linkedin-in"></i></a>
+  	 			</div>
+  	 		</div>
+  	 	</div>
+  	 </div>
+  </footer>
+</body>
+
+
+</html>
